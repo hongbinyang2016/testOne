@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		720032D1251465AA0072506F /* modelOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 720032D0251465AA0072506F /* modelOne.m */; };
 		ABFF10FA2514647700362CF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFF10F92514647700362CF2 /* AppDelegate.m */; };
 		ABFF10FD2514647700362CF2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFF10FC2514647700362CF2 /* SceneDelegate.m */; };
 		ABFF11002514647700362CF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFF10FF2514647700362CF2 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		720032CF251465AA0072506F /* modelOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = modelOne.h; sourceTree = "<group>"; };
+		720032D0251465AA0072506F /* modelOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = modelOne.m; sourceTree = "<group>"; };
 		ABFF10F52514647700362CF2 /* testOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABFF10F82514647700362CF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ABFF10F92514647700362CF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				ABFF10FC2514647700362CF2 /* SceneDelegate.m */,
 				ABFF10FE2514647700362CF2 /* ViewController.h */,
 				ABFF10FF2514647700362CF2 /* ViewController.m */,
+				720032CF251465AA0072506F /* modelOne.h */,
+				720032D0251465AA0072506F /* modelOne.m */,
 				ABFF11012514647700362CF2 /* Main.storyboard */,
 				ABFF11042514648400362CF2 /* Assets.xcassets */,
 				ABFF11062514648400362CF2 /* LaunchScreen.storyboard */,
@@ -148,6 +153,7 @@
 			files = (
 				ABFF11002514647700362CF2 /* ViewController.m in Sources */,
 				ABFF10FA2514647700362CF2 /* AppDelegate.m in Sources */,
+				720032D1251465AA0072506F /* modelOne.m in Sources */,
 				ABFF110B2514648400362CF2 /* main.m in Sources */,
 				ABFF10FD2514647700362CF2 /* SceneDelegate.m in Sources */,
 			);
