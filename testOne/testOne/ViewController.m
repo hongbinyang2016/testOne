@@ -22,7 +22,7 @@
 }
 
 -(void)setSubView:(UIView *)view{
-    
+     NSLog(@"MacPro 第8次提交打印。。。");
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
