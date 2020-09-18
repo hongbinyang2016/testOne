@@ -21,8 +21,9 @@
     self.title = @"titles";
 }
 
--(void)setSubView:(UIView *)view{
-     NSLog(@"MacPro 第8次提交打印。。。");
+-(void)setSubView{
+    UIView *view = [[UIView alloc] init];
+    [self.view addSubview:view];
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
