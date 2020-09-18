@@ -21,6 +21,10 @@
     self.title = @"titles";
 }
 
+-(void)setSubView:(UIView *)view{
+    
+}
+
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     
     NSLog(@"第六次提交打印。。。");
