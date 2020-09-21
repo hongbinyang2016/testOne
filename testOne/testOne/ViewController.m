@@ -24,6 +24,9 @@
 -(void)setSubView{
     UIView *view = [[UIView alloc] init];
     [self.view addSubview:view];
+    
+    view.frame = CGRectMake(0, 0, 200, 200 );
+    view.backgroundColor = [UIColor orangeColor];
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
