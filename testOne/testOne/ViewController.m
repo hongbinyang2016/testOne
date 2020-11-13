@@ -19,6 +19,9 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor redColor];
     self.title = @"titles";
+    UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)]; collectionViewLayout:[UICollectionViewLayout alloc] init];
+    NSLog(@"%@",@"ios14 新特性 UICollectionView");
+    
 }
 
 -(void)setSubView{
