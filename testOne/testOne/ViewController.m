@@ -50,6 +50,8 @@ fprintf(stderr, "-------\n"); \
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     
     NSLog(@"第六次提交打印。。。");
+    
+    NSLog(@"第shi六次提交打印。。。");
 }
 
 @end
