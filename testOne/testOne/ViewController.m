@@ -8,6 +8,20 @@
 
 #import "ViewController.h"
 
+#define YNSLog(format, ...) do { \
+fprintf(stderr, "<%s : %d> %s\n", \
+[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], \
+__LINE__, __func__); \
+(NSLog)((format), ##__VA_ARGS__); \
+fprintf(stderr, "-------\n"); \
+} while (0)
+
+#if DEBUG
+#define NSLog(FORMAT, ...)  fprintf(stderr,"\nfunction:%s line:%d content:%s\n", __FUNCTION__, __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#else
+#define NSLog(FORMAT, ...) nil
+#endif
+
 @interface ViewController ()
 
 @end
@@ -19,9 +33,10 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor redColor];
     self.title = @"titles";
-    UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)]; collectionViewLayout:[UICollectionViewLayout alloc] init];
-    NSLog(@"%@",@"ios14 新特性 UICollectionView");
+//    UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)]; collectionViewLayout:[[UICollectionViewLayout alloc] init];
+    YNSLog(@"%@",@"ios14 新特性 UICollectionView");
     
+    NSLog(@"%@",@"ios14 新特性 UICollectionView");
 }
 
 -(void)setSubView{
